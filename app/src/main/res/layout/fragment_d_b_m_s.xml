@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="673dp"
+        android:background="#1D1D1D"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+    tools:context=".Fragments.DBMSFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="1 What do you mean by DBMS?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> DBMS stands for Database managment system. It is a system software used to manage the organization by storage,access,modifiaction and integrirty of data."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="2 Why do we need DBMS?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> To Manage big amount of data\n- It improves data sharing and security\n- Effective data integeration\n- Easy to update data"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="3 What is Instance in DBMS?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> The data stored in a database at a particular moment of time is called an instance"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="4 What is Schema?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> Design of a Database is called Schema. It is of three types - physical,logical and view schema."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="5 what is subshema?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> It is subset of schema. It gives user window to view a certain part of database."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="6 What do you know about two tier architecture?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> It is client-server model.Here client runs application and server handels databse. It has to parts - Client and database. It is easy to mainatain but have low performance as user increases."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="7 What do you know about three tier architecture?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> In this architecture we have client layer, Business Layer and Data layer. Client conatins UI part. Business layer conatins all logic written. In data layer actual data is stored. This architecture has improved performance and Scalability."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="8 Explain ER model."
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> It is entity relationship diagram. It is represenation of differnet data using convention that describe how these data are related to each other."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="9 What are entity and attributes?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> Entity is a collection of objects and attributes are property which describe an entity."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="10 Mention various types of relationship."
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> one to one\n  one to many\n  many to one\n  many to many"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="11 What is aggregation?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> It refers to process by which entities are combined to form a single meaningful entity."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="12 What do you mean by RDBMS?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> RDBMS stands for Relational database managment system. RDBMS data is structured in database tables,fields and records."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="13 Define following terms"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> Super key\nAn attribute or combination of attributes that is used to identify the records uniquely.\nCandidate key\nIt is attributes or combination of attributes that uniquely identifies entity instance in entity set.\nComposite key\nA composite key is the DBMS key having two or more attributes that together can uniquely identify a tuple in a table.\nPrimary key\nA Primary Key is the minimal set of attributes of a table that has the task to uniquely identify the rows.\nForeign key\nA foreign key links back to primary key in another table."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="14 What do you mean by functional dependency?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> It is a relationship that exsists when one attribute identifies other differently. It is of two types - Trival functional dependency, Non-trival functional dependency."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="15 What is Normalization?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> A process of organizing the data in the database to avoid data redundancy. Normalization divides the larger table into smaller and links them using relationships."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="16 why do we use Normalization?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> To eliminate data redundancy\nMaintainance becomes easier\nTo make searching and sorting easier."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="17 Explain types of Normalization."
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> 1NF : A relation is in 1NF if it contains an atomic value.\n2NF : A relation will be in 2NF if it is in 1NF and all non-key attributes are fully functional dependent on the primary key.\n3NF : A relation will be in 3NF if it is in 2NF and no transition dependency exists.\nBCNF : Boyce–Codd Normal Form (BCNF) is based on functional dependencies that take into account all candidate keys in a relation\n4NF : A relation will be in 4NF if it is in Boyce Codd's normal form and has no multi-valued dependency.\n5NF : A relation is in 5NF. If it is in 4NF and does not contain any join dependency, joining should be lossless."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="18 What is SQL?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> It stands for structured query language. It is a computer language aimed to store, manipulate and retrive data stored in relational database."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="19 What are SQL commands?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> DDL, DML, DCL and TCL"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="20 What is DDL?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> DDL : It stands for data definition language. It is used to specify the relation schema as well as other information about relations.\nCommand - Create, Alter, Drop, Rename"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="21 What is DML?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> It stands for Data manipulation language. It is used to manage data within schema objects which deals with data manipulation.\nCommand - Select, Insert, Update, Delete"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="22 What is DCL?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> It stands for Data control language. It is used to control user access in database.\nCommand - Grant,Revoke."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="23 What is TCL?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> It stands for Transaction query Language. It is used to specifying the begining and ending of transactions. It manage changes made by DML statements.\nCommand - commit,Rollback"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="24 What do you mean by relational algebra?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> It is a procedural query language which works on relationals models."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bold"
+        android:text="25 What are various set operation?"
+        android:textColor="@color/txtColor"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/regular"
+        android:text="Ans -> Union, Intersection, Set difference, cartesian product."
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </TextView>
+
+</LinearLayout>
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

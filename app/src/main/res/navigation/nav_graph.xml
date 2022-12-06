@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.coder178.topinterviewquestions.Fragments.Home"
+        android:label="Home" >
+        <action
+            android:id="@+id/action_home2_to_oops2"
+            app:destination="@id/oops2" />
+        <action
+            android:id="@+id/action_home2_to_DBMSFragment"
+            app:destination="@id/DBMSFragment" />
+        <action
+            android:id="@+id/action_home2_to_operatingSystem"
+            app:destination="@id/operatingSystem" />
+        <action
+            android:id="@+id/action_home2_to_hr"
+            app:destination="@id/hr" />
+        <action
+            android:id="@+id/action_home2_to_hr2"
+            app:destination="@id/hr" />
+        <action
+            android:id="@+id/action_home2_to_coding2"
+            app:destination="@id/coding2" />
+    </fragment>
+    <fragment
+        android:id="@+id/oops2"
+        android:name="com.coder178.topinterviewquestions.Fragments.Oops"
+        android:label="fragment_oops"
+        tools:layout="@layout/fragment_oops" >
+        <action
+            android:id="@+id/action_oops2_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/DBMSFragment"
+        android:name="com.coder178.topinterviewquestions.Fragments.DBMSFragment"
+        android:label="fragment_d_b_m_s"
+        tools:layout="@layout/fragment_d_b_m_s" >
+        <action
+            android:id="@+id/action_DBMSFragment_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/operatingSystem"
+        android:name="com.coder178.topinterviewquestions.Fragments.OperatingSystem"
+        android:label="fragment_operating_system"
+        tools:layout="@layout/fragment_operating_system" >
+        <action
+            android:id="@+id/action_operatingSystem_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/hr"
+        android:name="com.coder178.topinterviewquestions.Fragments.Hr"
+        android:label="fragment_hr"
+        tools:layout="@layout/fragment_hr" >
+        <action
+            android:id="@+id/action_hr_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/coding2"
+        android:name="com.coder178.topinterviewquestions.Fragments.Coding"
+        android:label="Coding" >
+        <action
+            android:id="@+id/action_coding2_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+</navigation>

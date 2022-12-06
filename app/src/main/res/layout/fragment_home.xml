@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/ll1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+        <TextView
+            android:id="@+id/oops"
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:text="1 - OOPS"
+            android:textColor="@color/white"
+            android:textSize="40dp">
+            <!--                android:layout_marginStart="30dp"-->
+            <!--                android:layout_marginTop="90dp"-->
+            <!--                android:background="@drawable/txt_bg"-->
+            <!--                android:fontFamily="@font/regular"-->
+            <!--                android:padding="15dp"-->
+            <!--                android:text=" Oops"-->
+            <!--                android:textColor="@color/txtColor"-->
+            <!--                android:textSize="40dp">-->
+
+        </TextView>
+
+            <TextView
+                android:id="@+id/DBMS"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:text="2 - DBMS"
+                android:textColor="@color/white"
+                android:textSize="40dp">
+<!--                android:layout_marginStart="38dp"-->
+<!--                android:layout_marginTop="90dp"-->
+<!--                android:background="@drawable/txt_bg"-->
+<!--                android:fontFamily="@font/regular"-->
+<!--                android:padding="15dp"-->
+<!--                android:text="DBMS"-->
+<!--                android:textColor="@color/txtColor"-->
+<!--                android:textSize="40dp">-->
+
+
+            </TextView>
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/ll2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginTop="150dp">-->
+
+            <TextView
+                android:id="@+id/os"
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:text="3 - Operating System"
+                android:textColor="@color/white"
+                android:textSize="35dp">
+<!--                android:layout_marginStart="30dp"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:background="@drawable/txt_bg"-->
+<!--                android:fontFamily="@font/regular"-->
+<!--                android:padding="15dp"-->
+<!--                android:text="Operating\nSystem"-->
+<!--                android:textColor="@color/txtColor"-->
+<!--                android:textSize="27dp">-->
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/Hr"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:padding="5dp"
+                android:text="4 - HR"
+                android:textColor="@color/white"
+                android:textSize="40dp">
+<!--                android:layout_marginStart="38dp"-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:background="@drawable/txt_bg"-->
+<!--                android:fontFamily="@font/regular"-->
+<!--                android:padding="15dp"-->
+<!--                android:text="   HR"-->
+<!--                android:textColor="@color/txtColor"-->
+<!--                android:textSize="40dp">-->
+
+
+            </TextView>
+
+        <TextView
+            android:id="@+id/coding"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:text="5 - Coding Questions"
+            android:textColor="@color/white"
+            android:textSize="35dp">
+            <!--                android:layout_marginStart="38dp"-->
+            <!--                android:layout_marginTop="50dp"-->
+            <!--                android:background="@drawable/txt_bg"-->
+            <!--                android:fontFamily="@font/regular"-->
+            <!--                android:padding="15dp"-->
+            <!--                android:text="   HR"-->
+            <!--                android:textColor="@color/txtColor"-->
+            <!--                android:textSize="40dp">-->
+
+
+        </TextView>
+
+<!--        </LinearLayout>-->
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="673dp"
+        android:background="#1D1D1D"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+    tools:context=".Fragments.OperatingSystem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="1 What do you mean by Operating System?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> An operating system is a program that manages a computer’s hardware. It also provides a basis for application programs and acts as an intermediary between the computer user and the computer hardware."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="2 What is the purpose of operating system?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> It provides enviroment for development and execution of programs.\nTo manage computational activities."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="3 What are different operating System?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Batched operating systems\nTimesharing operating systems\nMulti-programmed operating systems\nReal-time operating systems\nDistributed operating systems"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="4 What is Socket?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Socket is defined as endpoint of the communication. It is used to make connection between two application."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="5 What is kernel?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Kernel is central component of an operating system that manages operations of computer and hardware. It basically manages operations of memory and CPU time."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="6 What is monolithic kernel?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> A monolithic kernel is a kernel which includes all operating system code is in single executable image."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="7 What do you mean by process?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> The process of execution of program is called process."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="8 What is reetrant code?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Reentrant code is non-self-modifying code: it never changes during execution. Thus, two or more processes can execute the same code at the same time."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="9 Differnce between program and process?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> A program while running or executing is known as a process."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="10 What do you mean by paging?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> It is a memory managment scheme. It avoids extrnal fragmentation and the need for Compaction.\nThe basic method for implementing paging involves breaking physical memory into fixed-sized blocks called frames and breaking logical memory into blocks of the same size called pages."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="11 What is demand paging?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Demand paging specifies that if an area of memory is not currently being used, it is swapped to disk to make room for an application's need."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="12 What is deadlock?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> The implementation of a semaphore with a waiting queue may result in a situation where two or more processes are waiting indefinitely for an event that can be caused only by one of the waiting processes. The event in question is the execution of a signal() operation. When such a state is reached, these processes are said to be deadlocked."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="13 What is virtual memory?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Virtual memory is a very useful memory management technique which enables processes to execute outside of memory. This technique is especially used when an executing program cannot fit in the physical memory."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="14 What is RAID Structure in OS?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> A variety of disk-organization techniques, collectively called redundant arrays of independent disks (RAID), are commonly used to address the performance and reliability issues."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="15 What are differnet levels of RAID configration?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> RAID 0 - Stripped Disk Array without fault tolerance\n
+
+RAID 1 - Mirroring and duplexing\n
+
+RAID 2 - Memory-style error-correcting codes\n
+
+RAID 3 - Bit-interleaved Parity\n
+
+RAID 4 - Block-interleaved Parity\n
+
+RAID 5 - Block-interleaved distributed Parity\n
+
+RAID 6 - P+Q Redundancy"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="16 What is IPC?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> It stands for Inter Process Communication.IPC is a mechanism that allows processes to communicate with each other and synchronize their actions."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="17 What is starvation and aging in OS?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Starvation is Resource management problem. In this problem, a waiting process does not get the resources it needs for a long time because the resources are being allocated to other processes.\nAging is a technique used to avoid the starvation in resource scheduling system."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="18 What are different types of kernel in OS?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> monolithic kernel, microkernel, hybrid kernel, nano kernel, and exo kernel"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="19 Explain FCFS."
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> FCFS stands for First Come First Serve. In the FCFS scheduling algorithm, the job that arrived first in the ready queue is allocated to the CPU and then the job that came second and so on"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="20 What is Swapping in OS?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Swapping is a mechanism in which a process can be swapped temporarily out of main memory (or move) to secondary storage (disk) and make that memory available to other processes. At some later time, the system swaps back the process from the secondary storage to main memory."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

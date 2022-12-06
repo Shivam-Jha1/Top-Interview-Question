@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+ android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="673dp"
+        android:background="#1D1D1D"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".Fragments.Oops">
+
+        <LinearLayout
+            android:id="@+id/oll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="1 What do you mean by OOP?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> OOP stands for object-oriented programming. It is a programming style that relates the programming to real-world models. It is method to design a program using classes and objects"
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="2 What do you mean by Class?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> Class is user defined data type that act as a blueprint for creating individual objects, methods, and properties."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="3 What do you mean by Object?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> Objects are instances of a class. Object is an entity that has a state and behaviour associated with class."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="4 What are main features of OOP?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> There are four main features of OOP 1) Inheritance 2) Polymorphism 3) Encapsulation 4) Abstraction"
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="5 What do you mean by Inheritance?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> It is the process where one class acquires the properties(methods and fields) of another class. With the help of inheritance data is stored in hierarchical order."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="6 What are types of Inheritance?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> There are five types of inheritance\n1- Single : Here a class inherits another class\n2- MultiLevel : It is like a chain where a class inherits another and so on\n3- Hierarchical : When two or more class inherits from a class\n4- Multiple : When a single class inherits from different classes\n5- Hybrid : It follows Hierarchical and Multiple inheritance"
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="7 What do you mean by Polymorphism?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> Polymorphism is a property through which any message can be sent to objects of multiple classes, and every object has the tendency to respond in an appropriate way depending on the class properties."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="8 What are the types Polymorphism?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> It is of two types-\n1- Runtime Polymorphism : It is a process in which a function call to the overridden method is resolved at Runtime. It is achieved by Method Overriding and Dynamic in nature.\n2- Compiletime polymorphism : is achieved by function overloading or operator overloading. It is static in nature"
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="9 What is abstraction?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> Abstraction is the concept of object-oriented programming that “shows” only essential attributes and “hides” unnecessary information. The main purpose of abstraction is hiding the unnecessary details from the users."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="10 What is Encapsulation?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> Encapsulation is defined as the wrapping up of data under a single unit. It is the mechanism that binds together code and the data it manipulates."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="11 Differnce between abstraction and enscapsulation."
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> Abstraction is the method of hiding the unwanted information. Whereas encapsulation is a method to hide the data in a single entity or unit along with a method to protect information from outside."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="12 How Encapsulation is achieved?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> Encapsulation can be achieved by: Declaring all the variables in the class as private and writing public methods in the class to set and get the values of variables."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="13 What to mean by super keyword?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> It is a reference variable which is used to refer to an immediate parent class object."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="14 What are access modifers?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> These are used to restrict access to the variables and methods of the class. There are four types of access modifiers private,public,protected,default."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="15 What are Constructors?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> Constructor is generally used to instanitating an object. Its task is to assign values to data members of class when object of class is created. It is of two types - default, parametrized."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="16 What is this parameter?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> This parameter is reference to current instance of class and used to access variable that belong to class."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="17 What is use of final keyword?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> Once a variable is declared as final its value can not be changed"
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="18 What is Static keyword?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> The static keyword is a non-access modifier used for methods and attributes. Static methods/attributes can be accessed without creating an object of a class."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="19 Why non-static variable cannot be referenced from a static method?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> For the non-static variable, there is a need for an object instance to call the variables. We can also create multiple objects by assigning different values for that non-static variable. So, different objects may have different values for the same variable."
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/bold"
+                android:text="20 What are some major Object Oriented Programming languages?"
+                android:textColor="@color/txtColor"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Ans -> Java, C++, Javascript, Python, PHP"
+                android:textColor="@color/white"
+                android:textSize="25dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

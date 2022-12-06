@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="673dp"
+        android:background="#1D1D1D"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+    tools:context=".Fragments.Hr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="1 Tell me about yourself"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> This is most asked question so you must practice this before your interview. You should answer this question with confidence and not in hurry some student just give this answer in hurry and miss points which will be not a good start.\nSo here some points you must include in your answer.\nName\nEductaional background\nYour skills relevant to job your are applying\nStrenght and Weakness\nHobby\nAim of your life."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="2 About the company"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Always do a small research of the company for which you are applying as recruiter may ask about that."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="3 Why do you want to join this company?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> You should answer this question by mentioning points like good work culture,great learning to work in that company,work-life balance etc."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="4 What is more important money or work?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> This type of question is tricky and you should always avoid giving direct answer to tricky questions like this. In this question you can say Money is important but work is more."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="5 Why should we hire you?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Tell them about your strenght and Skills that is relvant to this job. Do mention things like quick learner and team player etc."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="6 How would you rate yourself in scale of 1-10?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Always rate yourself between 8-10 and tell them about your strength and things you proud of."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="7 Describe yourself in one word?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Answer this question spontaneously eg - Confident, quick-learner, Team leader, Honest etc."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="8 Imagine if you get a lot of money from a lottery or anywhere else would you leave this job?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> You must say no and you enjoy your work and not leaving for money."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="9 What is difference between Team and group?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Set of people who stand together without any purpose called as Group. Whereas, when more than 2 people work towards a common goal called as a Team"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/bold"
+            android:text="10 What makes you happy?"
+            android:textColor="@color/txtColor"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/regular"
+            android:text="Ans -> Answer this question like learning something new everday and having a healthy lifestyle makes you happy."
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
